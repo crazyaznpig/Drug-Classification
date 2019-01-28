@@ -3,7 +3,8 @@ body {
     font-family: "Open Sans";
 }
 
-h1 {
+body h1 {
+    max-height: 10vh;
     text-align: center;
 }
 
@@ -71,4 +72,56 @@ div {
     border-radius: 5px;
     color: black;
     margin: 0;
+}
+
+#ChangeView {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.toggle-button {
+    background: white;
+    border: 1px transparent solid;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+.toggle-button.selected {
+    background: red;
+    color: white;
+    cursor: default;
+}
+
+.toggle-button:not(.selected):hover {
+    background: rgb(255, 230, 230);
+}
+
+.toggle-button:first-child {
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    margin-left: 0px;
+}
+
+.toggle-button:last-child {
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    margin-right: 0px;
+}
+
+#Split {
+    display: flex;
+}
+
+#SplitWindow {
+    flex: 2;
+}
+
+#Split, #SplitWindow, #SplitSelection {
+    padding: 0;
+}
+
+#SplitWindow, #SplitSelection {
+    max-height: 89vh;
+    overflow-y: auto;
 }
