@@ -28,7 +28,8 @@ class Section extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            expand: this.props.expand !== undefined ? this.props.expand : false
+            expand: this.props.expand !== undefined ? this.props.expand : false,
+            selected: false
         };
         this.expandItem = this.expandItem.bind(this);
     }
@@ -58,7 +59,10 @@ class Section extends React.Component {
         
         let clickHandler = null;
         if (data && this.props.setWindow !== undefined)
-            clickHandler = () => this.props.setWindow(nodes);
+            clickHandler = () => {
+                nodes.unshift(<div className={`item-level-${level} ${style !== undefined ? style : ""}`}>{label}</div>)
+                this.props.setWindow(nodes)
+            }
         else if (nodes.length > 0)
             clickHandler = this.expandItem;
 
