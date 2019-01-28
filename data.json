@@ -1,0 +1,392 @@
+{
+    "name": "Drugs Classification",
+    "children": [
+        {
+            "name": "ANS Drugs",
+            "children": [
+                {
+                    "name": "Adrenergic Drugs",
+                    "data": [
+                        {
+                            "name": "Adrenergic Drugs",
+                            "style": "header1",
+                            "data": [
+                                {
+                                    "name": "(Sympathomimetics)",
+                                    "style": "subheader"
+                                },
+                                {
+                                    "name": "Directly Acting",
+                                    "style": "header2",
+                                    "data": [
+                                        "Adrenaline",
+                                        "Noradrenaline",
+                                        "Isoprenaline",
+                                        "Dopamine",
+                                        "Phenylephrine",
+                                        "Methoxamine",
+                                        "Xylometazoline",
+                                        "Salbutamol"
+                                    ]
+                                },
+                                {
+                                    "name": "Indirectly Acting",
+                                    "style": "header2",
+                                    "data": [
+                                        "Tyramine"
+                                    ]
+                                },
+                                {
+                                    "name": "Mixed Action",
+                                    "style": "header2",
+                                    "data": [
+                                        "Ephedrine",
+                                        "Amphetamine",
+                                        "Mephentermine"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "THERAPUTIC CLASSIFICATION",
+                            "style": "header1",
+                            "data": [
+                                {
+                                    "name": "Pressor Agents",
+                                    "style": "header2",
+                                    "data": [
+                                        "Noradrenaline",
+                                        "Phenylephrine",
+                                        "Ephedrine",
+                                        "Methoxamine",
+                                        "Dopamine",
+                                        "Mephentermine"
+                                    ]
+                                },
+                                {
+                                    "name": "Cardiac Stimulants",
+                                    "style": "header2",
+                                    "data": [
+                                        "Adrenaline",
+                                        "Dobutamine",
+                                        "Isoprenaline"
+                                    ]
+                                },
+                                {
+                                    "name": "Bronchodilators",
+                                    "style": "header2",
+                                    "data": [
+                                        "Isoprenaline",
+                                        "Bambuterol",
+                                        "Salbutamol (Albuterol",
+                                        "Salmeterol",
+                                        "Terbutaline",
+                                        "Formoterol"
+                                    ]
+                                },
+                                {
+                                    "name": "Nasal Decongestants",
+                                    "style": "header2",
+                                    "data": [
+                                        "CNS Stimulants",
+                                        "Amphetamine",
+                                        "Methamphetamine",
+                                        "Dexamphetamine"
+                                    ]
+                                },
+                                {
+                                    "name": "Anorectics",
+                                    "style": "header2",
+                                    "data": [
+                                        "Fenfluramine",
+                                        "Sibutramine",
+                                        "Dexfenfluramine"
+                                    ]
+                                },
+                                {
+                                    "name": "Uterine Relaxant and Vasodilators",
+                                    "style": "header2",
+                                    "data": [
+                                        "Ritodrine",
+                                        "Salbutamol",
+                                        "Isoxsuprine",
+                                        "Terbutaline"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Anticholinergic Drugs",
+                    "data": [
+                        {
+                            "name": "(Muscarinic receptor antagonists, Parasympatholytic, Atropinic)",
+                            "style": "subheader"
+                        },
+                        {
+                            "name": "Natural Alkaloids",
+                            "style": "header2",
+                            "data": [
+                                "Atropine",
+                                "Hyoscine (Scopolamine)"
+                            ]
+                        },
+                        {
+                            "name": "Semisynthetic Derivatives",
+                            "style": "header2",
+                            "data": [
+                                "Homatropine",
+                                "Atropine",
+                                "Methonitrate",
+                                "Hyoscine Butyl Bromide",
+                                "Ipratropium Bromide",
+                                "Tiotropium Bromide"
+                            ]
+                        },
+                        {
+                            "name": "Synthetic Compounds",
+                            "style": "header2",
+                            "data": [
+                                {
+                                    "name": "(a) Mydriatics:",
+                                    "style": "header3",
+                                    "data": [
+                                        "Cyclopentolate",
+                                        "Tropicamide"
+                                    ]
+                                },
+                                {
+                                    "name": "(b) Antisecretory-antispasmodics",
+                                    "style": "header3",
+                                    "data": [
+                                        {
+                                            "name": "(i) Quaternary Compounds",
+                                            "style": "header4",
+                                            "data": [
+                                                "Propantheline",
+                                                "Oxyphenonium",
+                                                "Clidinium",
+                                                "Pipenzolate Methylbromide",
+                                                "Isopropamide",
+                                                "Glycopyrrolate"
+                                            ]
+                                        },
+                                        {
+                                            "name": "(ii) Teriary Amines",
+                                            "style": "header4",
+                                            "data": [
+                                                "Dicyclomine",
+                                                "Valethamate",
+                                                "Pirenzepine"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "(c) Vasicoselective",
+                                    "style": "header3",
+                                    "data": [
+                                        "Oxybutynin",
+                                        "Flavoxate",
+                                        "Tolterodine"
+                                    ]
+                                },
+                                {
+                                    "name": "(d) Antiparkinsonian",
+                                    "style": "header3",
+                                    "data": [
+                                        "Trihexyphenidyl (Benzhexol)",
+                                        "Procyclidine",
+                                        "Biperiden"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Cholinergic Drugs",
+                    "data": [
+                        {
+                            "name": "(Cholinomimetic, Parasympathomimetic)",
+                            "style": "subheader"           
+                        },
+                        {
+                            "name": "CHOLINERGIC AGONISTS",
+                            "style": "header2",
+                            "data": [
+                                {
+                                    "name": "Choline esters:",
+                                    "style": "header3",
+                                    "data": [
+                                        "Acetylcholine",
+                                        "Methacholine",
+                                        "Carbachol",
+                                        "Bethanechol"
+                                    ]
+                                },
+                                {
+                                    "name": "Alkaloids:",
+                                    "style": "header3",
+                                    "data": [
+                                        "Muscarine",
+                                        "Pilocarpine",
+                                        "Arecoline"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "ANTICHOLINESTERASES",
+                            "style": "header2",
+                            "data": [
+                                {
+                                    "name": "Reversible",
+                                    "style": "category",
+                                    "data": [
+                                        {
+                                            "name": "Carbamates:",
+                                            "style": "header3",
+                                            "data": [
+                                                "Physostigmine (Eserine)",
+                                                "Neostigmine",
+                                                "Pyridostigmine",
+                                                "Edrophonium",
+                                                "Rivastigmine",
+                                                "Donepezil",
+                                                "Galantamine"
+                                            ]
+                                        },
+                                        {
+                                            "name": "Acridine:",
+                                            "style": "header3",
+                                            "data": [
+                                                "Tacrine"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Irreversible",
+                                    "style": "category",
+                                    "data": [
+                                        {
+                                            "name": "Organophosphates:",
+                                            "style": "header3",
+                                            "data": [
+                                                "Dyflos (DFP), Echothiophate",
+                                                "Malathione",
+                                                "Diazinon",
+                                                "Tabun",
+                                                "Sarin",
+                                                "Soman"
+                                            ]
+                                        },
+                                        {
+                                            "name": "Carbamates:",
+                                            "style": "header3",
+                                            "data": [
+                                                "Carbaryl",
+                                                "Propoxur"
+                                            ]
+                                        }
+                                    ]
+                                }                                
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Drugs used for Glaucoma",
+                    "data": []
+                },
+                {
+                    "name": "Ganglion Blocker",
+                    "data": []
+                },
+                {
+                    "name": "Gaanglionic Stimulants",
+                    "data": []
+                },
+                {
+                    "name": "α-Adrenergic Blocking Agents",
+                    "data": []
+                }
+            ]
+        },
+        {
+            "name": "CNS Drugs",
+            "children": []
+        },
+        {
+            "name": "PNS Drugs",
+            "children": []
+        },
+        {
+            "name": "CVS Drugs",
+            "children": [
+                {
+                    "name": "Antianginal Drugs",
+                    "data": []
+                },
+                {
+                    "name": "Antiarrhythmic Drugs",
+                    "data": []
+                },
+                {
+                    "name": "Antihypertensive Drugs",
+                    "data": []
+                },
+                {
+                    "name": "Drugs for Congestive Heart Failure",
+                    "data": []
+                },
+                {
+                    "name": "Drugs for Peripheral Vascular Diseases",
+                    "data": []
+                }
+            ]
+        },
+        {
+            "name": "GIT Drugs",
+            "children": []
+        },
+        {
+            "name": "Renal Drugs",
+            "children": []
+        },
+        {
+            "name": "Respiratory Drugs",
+            "children": []
+        },
+        {
+            "name": "Autacoids and Related Drugs",
+            "children": []
+        },
+        {
+            "name": "Anticancer Drugs",
+            "children": []
+        },
+        {
+            "name": "Antibacterial Drugs",
+            "children": []
+        },
+        {
+            "name": "Antifungal",
+            "children": []
+        },
+        {
+            "name": "Antiprotozoal",
+            "children": []
+        },
+        {
+            "name": "Antiviral",
+            "children": []
+        },
+        {
+            "name": "Blood Drugs",
+            "children": []
+        }
+    ]
+}
